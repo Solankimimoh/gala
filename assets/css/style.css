@@ -6613,17 +6613,20 @@ template {
   padding: 40px 20px; }
 
 .nav-menu li a {
-  color: #fff;
+  color: #c73974;
   font-size: 16px;
   font-weight: 500;
   padding: 16px 36px 10px 12px;
   text-align: right;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
   @media (min-width: 992px) {
     .nav-menu li a {
       padding: 16px 12px 10px 12px;
       text-align: left;
-      border-bottom: none; } }
+      border-bottom: none;
+      color: white;
+      } }
   @media (min-width: 1200px) {
     .nav-menu li a {
       padding: 16px 20px 10px 20px; } }
@@ -6643,7 +6646,8 @@ template {
       transition: all 0.3s ease-in-out; }
   .nav-menu li a.active {
     background-color: #fff;
-    color: #273167; }
+    color: #273167;
+    }
   @media (min-width: 992px) {
     .nav-menu li a:hover, .nav-menu li a.active {
       background-color: transparent;
@@ -6871,13 +6875,17 @@ template {
     left: -250px;
     width: 250px;
     height: 100vh;
-    background-color: #273167;
+    background-color: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 10px 0px #9e9e9e7a;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    overflow-y: auto; }
+    overflow-y: auto;
+    }
     .op-mobile-menu .m-menu-header {
-      padding: 30px 15px; }
+      padding: 30px 15px;
+      /* color: red !important; */
+      }
     .op-mobile-menu .close-button {
       position: relative;
       width: 35px;
