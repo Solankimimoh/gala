@@ -6610,7 +6610,8 @@ template {
   left: 0;
   right: 0;
   z-index: 999;
-  padding: 40px 20px; }
+  /* padding: 40px 20px; */
+  }
 
 .nav-menu li a {
   color: #c73974;
@@ -6736,10 +6737,12 @@ template {
   z-index: 999;
   background-color: #fff;
   padding: 10px 20px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06); }
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+  }
   @media (min-width: 992px) {
     .axsis-main-menu-area.fixed-menu {
-      padding: 17px 20px; } }
+      /* padding: 17px 20px; */
+      } }
   .axsis-main-menu-area.fixed-menu .navbar-brand1 {
     display: none; }
   .axsis-main-menu-area.fixed-menu .navbar-brand2 {
@@ -8916,6 +8919,3 @@ blockquote {
     color: #bf1a5e !important;
 }
 
-.screenshot-image{
-/*    animation: bounce 10s ease-in 0s infinite;*/
-}
