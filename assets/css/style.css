@@ -7218,7 +7218,9 @@ template {
   .feature-item h5 {
     margin-bottom: 10px; }
   .feature-item p {
-    line-height: 2.1; }
+    line-height: 2.1;
+    text-align: center;
+    }
   .feature-item:hover .icon {
     animation: bounce 1s; }
 
@@ -8918,3 +8920,6 @@ blockquote {
     color: #bf1a5e !important;
 }
 
+p{
+    text-align: justify;
+}
