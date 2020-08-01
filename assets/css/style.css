@@ -6380,7 +6380,7 @@ template {
   height: 10%; }
 
 .bg-ash-color {
-  background-color: #fbf5f9;
+  background-color: #fdfdfd;
   }
 
 .bg-ash-color2 {
@@ -6392,7 +6392,7 @@ template {
 .to-top {
   width: 35px;
   height: 35px;
-  background-color: #bf1a5e;
+  background-color: #23B574;
   color: #fff;
   text-align: center;
   line-height: 39px;
@@ -6426,7 +6426,7 @@ template {
     font-size: 1.875em; } }
 
 #loading {
-  background-color: #bf1a5e;
+  background-color: #23B574;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -6614,7 +6614,7 @@ template {
   }
 
 .nav-menu li a {
-  color: #c73974;
+  color: #23B574;
   font-size: 16px;
   font-weight: 500;
   padding: 16px 36px 10px 12px;
@@ -6930,10 +6930,11 @@ template {
     left: 0; } }
 .banner-section {
   height: auto;
-  background-image: linear-gradient(to top right, #c22365, #ca437b);
+  background-image: linear-gradient(to top right, #23B574, hsl(158deg 92% 44%));
   position: relative;
   padding-top: 210px;
-  overflow: hidden; }
+  overflow: hidden;
+  }
   .banner-section:before {
     content: '';
     position: absolute;
@@ -7010,7 +7011,7 @@ template {
   .banner-text .button-store .custom-btn.active {
     background-color: white; }
     .banner-text .button-store .custom-btn.active i {
-      color: #bf1a5e;
+      color: #23B574;
       }
     .banner-text .button-store .custom-btn.active p {
       color: #273167; }
@@ -7277,7 +7278,7 @@ template {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background-color: #bf1a5e;
+    background-color: #23B574;
     color: #fff;
     }
   .screenshot-info-item .content {
@@ -7289,11 +7290,11 @@ template {
     .screenshot-info-item .content p {
       margin-bottom: 0; }
   .screenshot-info-item.active {
-    background-color: #bf1a5e;
+    background-color: #23B574;
     }
     .screenshot-info-item.active .icon {
       background-color: #fff;
-      color: #bf1a5e;
+      color: #23B574;
       }
     .screenshot-info-item.active .content h6 {
       color: #fff; }
@@ -7501,7 +7502,7 @@ template {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #bf1a5e;
+  background-color: #23B574;
   color: #fff;
   margin: auto;
   line-height: 67px;
@@ -7520,7 +7521,7 @@ template {
     background-color: #fff;
     color: #6f64e7; }
     .axsis-play-btn:hover svg {
-      fill: #bf1a5e;
+      fill: #23B574;
       }
   @media (min-width: 768px) {
     .axsis-play-btn {
@@ -7624,7 +7625,7 @@ template {
     background-color: #ebebeb;
     opacity: 1; }
   .interface-slider-container .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #bf1a5e;
+    background-color: #23B574;
     }
 
 .pricing-section {
@@ -7862,7 +7863,7 @@ template {
     background-color: #ebebeb;
     opacity: 1; }
   .axsis-testimonial-container .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #bf1a5e;
+    background-color: #23B574;
     }
 
 .axsis-testimonial-section.style2 {
@@ -8234,7 +8235,7 @@ blockquote {
     color: white; }
 
 .footer-top {
-  background-color: #fbf5f9;
+  background-color: #73eab545;
   }
 
 .footer-bottom {
@@ -8311,7 +8312,7 @@ blockquote {
     color: #273167; }
 .footer-widget .button-store .custom-btn {
   padding: 10px 20px;
-  border: 1px solid #bf1a5e;
+  border: 1px solid #23B574;
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 3px;
@@ -8319,7 +8320,7 @@ blockquote {
   .footer-widget .button-store .custom-btn i {
     font-size: 27px;
     margin-right: 10px;
-    color: #bf1a5e;
+    color: #23B574;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -8342,7 +8343,7 @@ blockquote {
       -moz-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out; }
   .footer-widget .button-store .custom-btn.active {
-    background-color: #bf1a5e;
+    background-color: #23B574;
     }
     .footer-widget .button-store .custom-btn.active i {
       color: #fff; }
@@ -8714,9 +8715,9 @@ blockquote {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     border-radius: 120px;
-    background-color: #fbecf3;
+    background-color: #23b574;
     z-index: 0;
-    transform: skew(-15deg) rotate(38deg) translateY(-50%);
+    transform: skew(-23deg) rotate(36deg) translateY(-53%);
     }
 
 @keyframes round1 {
@@ -8779,7 +8780,7 @@ blockquote {
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     .contact-form input:active, .contact-form input:hover, .contact-form input:focus, .contact-form textarea:active, .contact-form textarea:hover, .contact-form textarea:focus {
-      border-color: #bf1a5e;
+      border-color: #23B574;
       }
   .contact-form input {
     margin-bottom: 50px;
@@ -8795,7 +8796,7 @@ blockquote {
   .contact-form button {
     padding: 15px 60px;
     font-size: 14px;
-    background-color: #bf1a5e;
+    background-color: #23B574;
     border: none;
     color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
@@ -8901,7 +8902,7 @@ blockquote {
 }
 
 .footericon{
-    color: #bf1a5e;
+    color: #23B574;
     font-size: 20px;
     margin-right: 10px;
 }
@@ -8920,6 +8921,6 @@ blockquote {
     font-weight: bold; 
 }
 .footer-bottom a:hover{
-    color: #bf1a5e !important;
+    color: #23B574 !important;
 }
 
