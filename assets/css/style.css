@@ -7841,7 +7841,9 @@ template {
       margin: 0; }
     .axsis-testimonial-container .testimonial-content .designation {
       font-size: 14px;
-      color: #d1d1d1; }
+      color: #d1d1d1;
+      text-align: center;
+      }
     @media (min-width: 992px) {
       .axsis-testimonial-container .testimonial-content {
         /* width: calc(100% - 90px); */
