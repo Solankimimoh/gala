@@ -7382,7 +7382,7 @@ template {
     .screenshot-info-item-style2 .content p {
       margin-bottom: 0; }
 .screenshot-content{
-    padding: 100px 0;
+    padding: 55px 0;
 }
 .screenshot-content h3 {
   font-size: 26px;
@@ -8709,7 +8709,7 @@ blockquote {
     content: "";
     position: absolute;
     left: 48%;
-    top: 50%;
+    top: 54%;
     width: 1273px;
     height: 1000px;
     -webkit-border-radius: 150px;

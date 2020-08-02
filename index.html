@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -164,12 +163,12 @@
                     <div class="feature-item">
                         <div class="icon-box">
                             <div class="icon yellow">
-                                <span class="flaticon-work"></span>
+                                <span class="flaticon-calendar"></span>
                             </div>
                             <img src="assets/images/feature/feature-dot-shape.png" alt="dot shape">
                         </div>
-                        <h5>Jobs Around You</h5>
-                        <p>We know, finding a maid is very difficult task. This platform helps you to find people who can help you in various tasks like house cleaning, baby sitting etc.</p>
+                        <h5> Slots system</h5>
+                        <p>A solution to improve customer experience for hassle free shopping. Get slot in advance, and proceed for thr shopping without rush.</p>
                     </div>
                 </div>
 
@@ -285,7 +284,7 @@
             <div class="row">
                 <div class="col-lg-5 order-lg-last">
                     <div class="screenshot-content style3  text-center text-lg-left">
-                        <h3 class="mb-3 wow fadeInUp" data-wow-offset="10" data-wow-duration="1s" data-wow-delay="0s">Struggling to find customers?</h3>
+                        <h3 class="mb-3 wow fadeInUp" data-wow-offset="10" data-wow-duration="1s" data-wow-delay="0s">Slot system</h3>
                         <p class="desc"><b>Merchant:</b><br />
                             60% users are inclining towards online due to bad experience in crowded business establishments ,unnecessary waiting at the store. In this pandemic situation, it is even more difficult as social distancing is must.
                             To avoid crowd at the business establishment, to ensure proper social distancing among the users, merchant can use slot system. This will give user a better experience . Merchant can also have better experience in addressing customers proper manner.
@@ -298,7 +297,7 @@
                 </div>
                 <div class="col-lg-7 order-lg-first pr_lg--100  wow fadeInUp" data-wow-offset="10" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="screenshot-image xl-image">
-                        <img src="assets/images/screenshot/03.png" alt="screenshot">
+                        <img src="assets/images/screenshot/06.png" alt="screenshot">
                     </div>
                 </div>
             </div>
@@ -550,11 +549,12 @@
                             <ul class="footer-contact-info pl-0 list-unstyled">
                                 <li><a href="mailto:info@example.com?Subject=Hello%20again" target="_top"><i class="fas fa-envelope-open footericon"></i>support@desiawaaz.com </a></li>
                                 <li><a href="mailto:info@example.com?Subject=Hello%20again" target="_top"><i class="fas fa-envelope-open footericon"></i>merchant-help@desiawaaz.com </a></li>
-                                <li><a href="tel:448448737363"><i class="fas fa-headphones footericon"></i> +91 8247 638 529</a></li>
-
                                 <li>
-                                    <i class="fas fa-home footericon"></i>
-                                    <span class="para">B-105, Aditya Soigne, Jagadeesh nagar, Bangalore 560075</span></li>
+                                    <p>This page was viewed</p>
+                                    <h4 id="count">0</h4>
+                                    <p>times</p>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -607,4 +607,19 @@
     <script src='assets/js/simpleParallax.js'></script>
     <script src='assets/js/functions.js'></script>
 
+<script>
+    const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/nearmegala.netlify.app/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
+
+    </script>
 </body></html>
