@@ -6393,7 +6393,7 @@ template {
 .to-top {
   width: 35px;
   height: 35px;
-  background-color: #23B574;
+  background-color: #fc5a2b;
   color: #fff;
   text-align: center;
   line-height: 39px;
@@ -6427,7 +6427,7 @@ template {
     font-size: 1.875em; } }
 
 #loading {
-  background-color: #23B574;
+  background-color: #1fad93;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -6615,7 +6615,7 @@ template {
   }
 
 .nav-menu li a {
-  color: #23B574;
+  color: #1fad93;
   font-size: 16px;
   font-weight: 500;
   padding: 16px 36px 10px 12px;
@@ -6931,7 +6931,7 @@ template {
     left: 0; } }
 .banner-section {
   height: auto;
-  background-image: linear-gradient(to top right, #23B574, hsl(158deg 92% 44%));
+  background-image: linear-gradient(to top right, hsl(169 70% 36% / 1), hsl(169 70% 37% / 1));
   position: relative;
   padding-top: 210px;
   overflow: hidden;
@@ -7012,7 +7012,7 @@ template {
   .banner-text .button-store .custom-btn.active {
     background-color: white; }
     .banner-text .button-store .custom-btn.active i {
-      color: #23B574;
+      color: #1fad93;
       }
     .banner-text .button-store .custom-btn.active p {
       color: #273167; }
@@ -7282,7 +7282,7 @@ template {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background-color: #23B574;
+    background-color: #1fad93;
     color: #fff;
     }
   .screenshot-info-item .content {
@@ -7297,11 +7297,11 @@ template {
     .screenshot-info-item .content p {
       margin-bottom: 0; }
   .screenshot-info-item.active {
-    background-color: #23B574;
+    background-color: #1fad93;
     }
     .screenshot-info-item.active .icon {
       background-color: #fff;
-      color: #23B574;
+      color: #1fad93;
       }
     .screenshot-info-item.active .content h6 {
       color: #fff; }
@@ -7509,7 +7509,7 @@ template {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #23B574;
+  background-color: #fc5a2b;
   color: #fff;
   margin: auto;
   line-height: 67px;
@@ -7528,7 +7528,7 @@ template {
     background-color: #fff;
     color: #6f64e7; }
     .axsis-play-btn:hover svg {
-      fill: #23B574;
+      fill: #1fad93;
       }
   @media (min-width: 768px) {
     .axsis-play-btn {
@@ -7632,7 +7632,7 @@ template {
     background-color: #ebebeb;
     opacity: 1; }
   .interface-slider-container .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #23B574;
+    background-color: #1fad93;
     }
 
 .pricing-section {
@@ -7841,7 +7841,8 @@ template {
       margin-bottom: 10px;
       margin-top: 15px; }
       .axsis-testimonial-container .testimonial-content .rating i {
-        color: #f6c416; }
+        color: #fc5a2b;
+        }
     .axsis-testimonial-container .testimonial-content .text {
       margin-bottom: 25px; }
     .axsis-testimonial-container .testimonial-content .name {
@@ -7870,7 +7871,7 @@ template {
     background-color: #ebebeb;
     opacity: 1; }
   .axsis-testimonial-container .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #23B574;
+    background-color: #fc5a2b;
     }
 
 .axsis-testimonial-section.style2 {
@@ -8242,7 +8243,7 @@ blockquote {
     color: white; }
 
 .footer-top {
-  background-color: #73eab545;
+  background-color: #22a08938;
   }
 
 .footer-bottom {
@@ -8319,7 +8320,7 @@ blockquote {
     color: #273167; }
 .footer-widget .button-store .custom-btn {
   padding: 10px 20px;
-  border: 1px solid #23B574;
+  border: 1px solid #1fad93;
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 3px;
@@ -8327,7 +8328,7 @@ blockquote {
   .footer-widget .button-store .custom-btn i {
     font-size: 27px;
     margin-right: 10px;
-    color: #23B574;
+    color: #1fad93;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -8350,7 +8351,7 @@ blockquote {
       -moz-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out; }
   .footer-widget .button-store .custom-btn.active {
-    background-color: #23B574;
+    background-color: #1fad93;
     }
     .footer-widget .button-store .custom-btn.active i {
       color: #fff; }
@@ -8722,7 +8723,7 @@ blockquote {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     border-radius: 120px;
-    background-color: #23b574;
+    background-color: #1fad93;
     z-index: 0;
     transform: skew(-23deg) rotate(36deg) translateY(-53%);
     }
@@ -8787,7 +8788,7 @@ blockquote {
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     .contact-form input:active, .contact-form input:hover, .contact-form input:focus, .contact-form textarea:active, .contact-form textarea:hover, .contact-form textarea:focus {
-      border-color: #23B574;
+      border-color: #1fad93;
       }
   .contact-form input {
     margin-bottom: 50px;
@@ -8803,7 +8804,7 @@ blockquote {
   .contact-form button {
     padding: 15px 60px;
     font-size: 14px;
-    background-color: #23B574;
+    background-color: #fc5a2b;
     border: none;
     color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
@@ -8909,7 +8910,7 @@ blockquote {
 }
 
 .footericon{
-    color: #23B574;
+    color: #1fad93;
     font-size: 20px;
     margin-right: 10px;
 }
@@ -8928,12 +8929,12 @@ blockquote {
     font-weight: bold; 
 }
 .footer-bottom a:hover{
-    color: #23B574 !important;
+    color: #1fad93 !important;
 }
 
 .visitor-lable{
     color: #051441;
 }
 #count{
-    color: #23B574;
+    color: #1fad93;
 }
