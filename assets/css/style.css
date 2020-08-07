@@ -6931,7 +6931,7 @@ template {
     left: 0; } }
 .banner-section {
   height: auto;
-  background-image: linear-gradient(to top right, hsl(169 70% 36% / 1), hsl(169 70% 37% / 1));
+  background-image: linear-gradient(to top right, hsl(169deg 66% 36%), hsl(169deg 60% 52%));
   position: relative;
   padding-top: 210px;
   overflow: hidden;
